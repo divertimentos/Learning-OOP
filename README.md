@@ -12,3 +12,8 @@ Série de vídeos do [Hallison Paz](https://hallisonpaz.com.br/) sobre orientaç
 
 3. [Representando objetos em strings](https://www.youtube.com/watch?v=ei9-eCyon7I&t=5s)
 
+## Live de Python (Eduardo Mendes)
+
+1. [Live de Python (\#61): Programação orientada a objetos \#1 - Introdução](https://www.youtube.com/watch?v=BALM_oJcJL4&t=1s)
+
+2. 
