@@ -14,6 +14,9 @@ Série de vídeos do [Hallison Paz](https://hallisonpaz.com.br/) sobre orientaç
 
 ## Live de Python (Eduardo Mendes)
 
+Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orientação a objetos em Python.
+
 1. [Live de Python (\#61): Programação orientada a objetos \#1 - Introdução](https://www.youtube.com/watch?v=BALM_oJcJL4&t=1s)
 
 2. 
+
