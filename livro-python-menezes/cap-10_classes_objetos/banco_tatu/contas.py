@@ -21,10 +21,10 @@ class Conta:
         self.saldo += valor
         self.operacoes.append(['DEPOSITO', valor])
         if show_message:
-            print(f"Depósito de {valor} feito com êxito!")
+            print(f"Depósito de R$ {valor} feito com êxito!")
 
     def extrato(self):
         print(f"\nExtrato CC nº: {self.numero}")
         for operacao in self.operacoes:
             print(f"{operacao[0], operacao[1]}")
-        print(f"\n Saldo: {self.saldo}")
+        print(f"\n Saldo: {self.saldo:2.2f}")
