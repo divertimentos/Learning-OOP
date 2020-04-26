@@ -143,3 +143,7 @@ cython_debug/
 # VSCode
 **/tempCodeRunnerFile*
 .vscode/
+
+# macOS
+.DS_Store
+
