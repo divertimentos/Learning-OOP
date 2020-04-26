@@ -20,3 +20,11 @@ Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orien
 
 2. 
 
+# Capítulo 10 (Classes e Objetos) do livro Introdução à Programação com Python (Nilo Ney Coutinho Menezes)
+
+#### Divertimentos (exercícios)
+
+#### Anotações
+
+#### Banco Tatu
+
