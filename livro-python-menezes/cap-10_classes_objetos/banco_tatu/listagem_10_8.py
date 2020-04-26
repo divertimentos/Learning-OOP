@@ -1,9 +1,9 @@
-from cliente import Cliente
-from contas import Conta
+from contas import Conta, Cliente
 
 maria = Cliente("Maria da Silva", "555-4321")
 joao = Cliente("João da Silva", "777-1234")
-
+jose = Cliente("José de Oliveira", "3261-4556")
+harden = Cliente("James Harden", "555-4322")
 # conta = Conta([maria, joao], 1234, 500)
 # conta1.saque(50)
 # conta2.deposito(300)
@@ -17,7 +17,7 @@ joao = Cliente("João da Silva", "777-1234")
 # conta1.saque(750)
 # conta.resumo()
 
-jo_jo = Cliente(["João", "José"], "3261-4556")
-conta_jojo = Conta(jo_jo, 2222, saldo=500)
+# conta_jojo = Conta([joao, jose, harden], 2222, saldo=500)
 
-conta_jojo.resumo()
+# conta_jojo.resumo()
+# conta_jojo.extrato()

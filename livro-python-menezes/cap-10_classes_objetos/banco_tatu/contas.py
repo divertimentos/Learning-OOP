@@ -14,8 +14,9 @@ class Conta:
     def resumo(self):
         print(f"\nConta-corrente nº: {self.numero}")
         print(f"Saldo: R$ {self.saldo:.2f}")
+        
         for cliente in self.clientes:
-            print(f"Nome: {cliente.nome}\nTelefone: {cliente.telefone}")
+            print(f"\nNome: {cliente.nome}\nTelefone: {cliente.telefone}\n")
 
     def saque(self, valor):
         if self.saldo >= valor:
