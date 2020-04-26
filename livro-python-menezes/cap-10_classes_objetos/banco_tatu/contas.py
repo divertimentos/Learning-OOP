@@ -1,3 +1,8 @@
+class Cliente:
+    def __init__(self, nome, telefone):
+        self.nome = nome
+        self.telefone = telefone
+
 class Conta:
     def __init__(self, clientes, numero, saldo=0):
         self.saldo = 0
@@ -7,8 +12,11 @@ class Conta:
         self.deposito(saldo, show_message=False)
 
     def resumo(self):
-        print(f"\nCC Número: {self.numero}\nSaldo: R$ {self.saldo:.2f}")
-    
+        print(f"\nConta-corrente nº: {self.numero}")
+        print(f"Saldo: R$ {self.saldo:.2f}")
+        for cliente in self.clientes:
+            print(f"Nome: {cliente.nome}\nTelefone: {cliente.telefone}")
+
     def saque(self, valor):
         if self.saldo >= valor:
             self.saldo -= valor
