@@ -5,9 +5,9 @@ class Cliente:
 
 class Conta:
     def __init__(self, clientes, numero, saldo=0):
-        self.saldo = 0
         self.clientes = clientes
         self.numero = numero
+        self.saldo = 0
         self.operacoes = list()
         self.deposito(saldo, show_message=False)
 
@@ -23,8 +23,10 @@ class Conta:
             self.saldo -= valor
             self.operacoes.append(['Saque', valor])
             print(f"Saque de R$ {valor}: êxito.")
+            return True
         else:
             print(f"Seu saque é de R$ {self.saldo}. Não foi possível completar a operação.")
+            return False
     
     def deposito(self, valor, show_message=True):
         self.saldo += valor
@@ -37,3 +39,18 @@ class Conta:
         for operacao in self.operacoes:
             print(f"{operacao[0], operacao[1]}")
         print(f"\n Saldo: {self.saldo:2.2f}")
+
+
+class ContaEspecial(Conta):
+    def __init__(self, clientes, numero, saldo=0, limite=0):
+        Conta.__init__(self, clientes, numero, saldo)
+        self.limite = limite
+    
+    def saque(self, valor):
+        if self.saldo + self.limite >= valor:
+            self.saldo -= valor
+            self.operacoes.append(["SAQUE", valor])
+            return True
+        else:
+            print(f"Seu saque é de R$ {self.saldo}. Não foi possível completar a operação.")
+            return False
