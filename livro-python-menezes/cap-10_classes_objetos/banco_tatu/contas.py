@@ -35,10 +35,14 @@ class Conta:
             print(f"Depósito de R$ {valor} feito com êxito!")
 
     def extrato(self):
-        print(f"\nExtrato CC nº: {self.numero}")
+        print("~" * 18)
+        print(f"Classe: {self.__class__.__name__}")
+
+        print(f"Extrato CC nº: {self.numero}")
         for operacao in self.operacoes:
-            print(f"{operacao[0], operacao[1]}")
-        print(f"\n Saldo: {self.saldo:2.2f}")
+            print(f"{operacao[0]} de R$ {operacao[1]}")
+        print(f"\nSaldo: R${self.saldo:2.2f}")
+        print("~" * 18)
 
 
 class ContaEspecial(Conta):
@@ -54,3 +58,16 @@ class ContaEspecial(Conta):
         else:
             print(f"Seu saque é de R$ {self.saldo}. Não foi possível completar a operação.")
             return False
+
+    def extrato(self):
+        print("~" * 18)
+        print(f"Classe: {self.__class__.__name__}")
+        print(f"Extrato CC nº: {self.numero}")
+        for operacao in self.operacoes:
+            print(f"{operacao[0]} de R$ {operacao[1]}")
+        
+        print(f"\nSaldo: R${self.saldo:2.2f}")
+        print(f"Limite atual: R$ {self.limite}")
+        print("~" * 18)
+    
+    
