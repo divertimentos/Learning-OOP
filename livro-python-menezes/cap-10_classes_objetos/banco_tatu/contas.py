@@ -3,6 +3,7 @@ class Cliente:
         self.nome = nome
         self.telefone = telefone
 
+
 class Conta:
     def __init__(self, clientes, numero, saldo=0):
         self.clientes = clientes
@@ -17,6 +18,8 @@ class Conta:
         
         for cliente in self.clientes:
             print(f"\nNome: {cliente.nome}\nTelefone: {cliente.telefone}\n")
+
+
 
     def saque(self, valor):
         if self.saldo >= valor:
@@ -60,14 +63,16 @@ class ContaEspecial(Conta):
             return False
 
     def extrato(self):
-        print("~" * 18)
-        print(f"Classe: {self.__class__.__name__}")
-        print(f"Extrato CC nº: {self.numero}")
-        for operacao in self.operacoes:
-            print(f"{operacao[0]} de R$ {operacao[1]}")
+        Conta.extrato(self)
         
-        print(f"\nSaldo: R${self.saldo:2.2f}")
+        # print("~" * 18)
+        # print(f"Classe: {self.__class__.__name__}")
+        # print(f"Extrato CC nº: {self.numero}")
+        # for operacao in self.operacoes:
+        #     print(f"{operacao[0]} de R$ {operacao[1]}")
+        
         print(f"Limite atual: R$ {self.limite}")
-        print("~" * 18)
+        print(f"\nSaldo disponível: R${self.limite + self.saldo:2.2f}")
+        # print("~" * 18)
     
     
