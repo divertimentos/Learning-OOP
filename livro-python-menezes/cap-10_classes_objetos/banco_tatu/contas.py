@@ -63,16 +63,8 @@ class ContaEspecial(Conta):
             return False
 
     def extrato(self):
-        Conta.extrato(self)
-        
-        # print("~" * 18)
-        # print(f"Classe: {self.__class__.__name__}")
-        # print(f"Extrato CC nº: {self.numero}")
-        # for operacao in self.operacoes:
-        #     print(f"{operacao[0]} de R$ {operacao[1]}")
-        
+        Conta.extrato(self)                
         print(f"Limite atual: R$ {self.limite}")
         print(f"\nSaldo disponível: R${self.limite + self.saldo:2.2f}")
-        # print("~" * 18)
     
     
