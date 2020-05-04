@@ -22,14 +22,20 @@ class Conta:
 
 
     def saque(self, valor):
-        if self.saldo >= valor:
+        def checa_saque(valor):
+            if self.saldo >= valor:
+                return True
+            else:
+                return False
+
+        if checa_saque(valor):
             self.saldo -= valor
             self.operacoes.append(['Saque', valor])
             print(f"Saque de R$ {valor}: êxito.")
-            return True
         else:
-            print(f"Seu saque é de R$ {self.saldo}. Não foi possível completar a operação.")
-            return False
+            print(f"Seu saldo é de R$ {self.saldo}. Não foi possível sacar R$ {valor}.")
+    
+    
     
     def deposito(self, valor, show_message=True):
         self.saldo += valor
@@ -54,13 +60,7 @@ class ContaEspecial(Conta):
         self.limite = limite
     
     def saque(self, valor):
-        if self.saldo + self.limite >= valor:
-            self.saldo -= valor
-            self.operacoes.append(["SAQUE", valor])
-            return True
-        else:
-            print(f"Seu saque é de R$ {self.saldo}. Não foi possível completar a operação.")
-            return False
+        Conta.saque(self, valor)
 
     def extrato(self):
         Conta.extrato(self)                
