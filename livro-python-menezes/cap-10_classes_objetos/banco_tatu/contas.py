@@ -15,7 +15,7 @@ class Conta:
     def resumo(self):
         print(f"\nConta-corrente nº: {self.numero}")
         print(f"Saldo: R$ {self.saldo:.2f}")
-        
+
         for cliente in self.clientes:
             print(f"\nNome: {cliente.nome}\nTelefone: {cliente.telefone}\n")
 
@@ -34,9 +34,8 @@ class Conta:
             print(f"Saque de R$ {valor}: êxito.")
         else:
             print(f"Seu saldo é de R$ {self.saldo}. Não foi possível sacar R$ {valor}.")
-    
-    
-    
+
+
     def deposito(self, valor, show_message=True):
         self.saldo += valor
         self.operacoes.append(['DEPOSITO', valor])
@@ -58,13 +57,12 @@ class ContaEspecial(Conta):
     def __init__(self, clientes, numero, saldo=0, limite=0):
         Conta.__init__(self, clientes, numero, saldo)
         self.limite = limite
-    
+
     def saque(self, valor):
         Conta.saque(self, valor)
 
     def extrato(self):
-        Conta.extrato(self)                
+        Conta.extrato(self)
         print(f"Limite atual: R$ {self.limite}")
         print(f"\nSaldo disponível: R${self.limite + self.saldo:2.2f}")
-    
-    
+
