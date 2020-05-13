@@ -15,12 +15,9 @@ class ListaUnica:
     def indice_valido(self, i):
         return i > 0 and i < len(self.lista)
 
-    def adiciona(self, elem):
-        if self.pesquisa(elem) == -1:
-            self.lista.append(elem)
-
-    def remove(self, elem):
-        self.lista.remove(elem)
+    def verifica_tipo(self, elem):
+        if type(elem) != self.elem_class:
+            raise TypeError("Tipo inválido")
 
     def pesquisa(self, elem):
         self.verifica_tipo(elem)
@@ -29,10 +26,14 @@ class ListaUnica:
         except ValueError:
             return -1
 
-    def verifica_tipo(self, elem):
-        if type(elem) != self.elem_class:
-            raise TypeError("Tipo inválido")
+    def adiciona(self, elem):
+        if self.pesquisa(elem) == -1:
+            self.lista.append(elem)
+
+    def remove(self, elem):
+        self.lista.remove(elem)
+
+
 
     def ordena(self, chave=None):
         self.lista.sort(key=chave)
-    
