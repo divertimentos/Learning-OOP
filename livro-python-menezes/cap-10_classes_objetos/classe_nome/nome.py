@@ -1,6 +1,7 @@
 from functools import total_ordering
 
-@total_ordering
+
+@total_ordering  # Implementa todos os operadores de comparação
 class Nome:
     def __init__(self, nome):
         if nome == None or not nome.strip():
