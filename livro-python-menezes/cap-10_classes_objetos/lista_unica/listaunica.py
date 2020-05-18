@@ -33,7 +33,5 @@ class ListaUnica:
     def remove(self, elem):
         self.lista.remove(elem)
 
-
-
     def ordena(self, chave=None):
         self.lista.sort(key=chave)
