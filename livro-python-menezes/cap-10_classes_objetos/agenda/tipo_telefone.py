@@ -16,5 +16,3 @@ class TipoTelefone:
 
     def __lt__(self, outro):
         return self.tipo < outro.tipo
-
-
