@@ -140,8 +140,8 @@ class Telefone:
 
     def __eq__(self, outro):
         return self.numero == outro.numero and (
-            (self.tipo == outro.tipo) or (self.tipo is None or outro.tipo is None)
-        )
+            (self.tipo == outro.tipo) or (
+                self.tipo is None or outro.tipo is None))
 
     @property
     def numero(self):
@@ -216,11 +216,11 @@ class Menu:
         self.opcoes.append([nome, funcao])
 
     def exibe(self):
-        print("===")
+        print("====")
         print("Menu")
-        print("===\n")
+        print("====\n")
         for i, opcao in enumerate(self.opcoes):
-            print(f"[{i} - {opcao[0]}]")
+            print(f"[{i}] - {opcao[0]}")
         print()
 
     def execute(self):
@@ -247,14 +247,14 @@ class AppAgenda:
     def mostra_dados(dados):
         print(f"Nome: {dados.nome}")
         for telefone in dados.telefones:
-            print("Telefone: {telefone}")
+            print(f"Telefone: {telefone}")
         print()
 
     @staticmethod
     def mostra_dados_telefone(dados):
         print(f"Nome: {dados.nome}")
         for i, telefone in enumerate(dados.telefones):
-            print(f"{i} - {telefone}")
+            print(f"{i} - Telefone: {telefone}")
         print()
 
     @staticmethod
@@ -280,7 +280,7 @@ class AppAgenda:
         for i, tipo in enumerate(self.agenda.tipos_telefone):
             print(f"{i} - {tipo}", end=None)
         t = valida_faixa_inteiro(
-            f"Tipo: ", 0, len(self.agenda.tipos_telefone) - 1, padrao
+            "Tipo: ", 0, len(self.agenda.tipos_telefone) - 1, padrao
         )
         return self.agenda.tipos_telefone[t]
 
@@ -293,8 +293,8 @@ class AppAgenda:
         if nulo_ou_vazio(novo):
             return
         nome = Nome(novo)
-        if self.pesquisa(nome) != None:
-            print(f"Nome já existe!")
+        if self.pesquisa(nome) is not None:
+            print("Nome já existe!")
             return
         registro = DadoAgenda(nome)
         self.menu_telefones(registro)
@@ -307,9 +307,11 @@ class AppAgenda:
         if nulo_ou_vazio(nome):
             return
         p = self.pesquisa(nome)
-        if p != None:
+        if p is not None:
             self.agenda.remove(p)
-            print(f"Apagado. A agenda agora possui apenas: {self.agenda} registros")
+            print(
+                f"Apagado. A agenda agora possui apenas: {len(self.agenda)} registros"
+            )
         else:
             print(f"Nome não encontrado")
 
@@ -320,7 +322,7 @@ class AppAgenda:
         if nulo_ou_vazio(nome):
             return
         p = self.pesquisa(nome)
-        if p != None:
+        if p is not None:
             print(f"\nEncontrado:\n")
             AppAgenda.mostra_dados(p)
             print(f"Digite ENTER caso não queira alterar o nome")
@@ -336,8 +338,8 @@ class AppAgenda:
             print(f"\nEditando telefones\n")
             AppAgenda.mostra_dados_telefone(dados)
             if len(dados.telefones) > 0:
-                print(f"\n[A] - alterar\n[D] - apagar\n", end="")
-            print(f"[N] - novo\n[S] - sair\n")
+                print("\n[A] - alterar\n[D] - apagar\n", end="")
+            print("[N] - novo\n[S] - sair\n")
             operacao = input("Escolha uma operação: \n")
             operacao = operacao.lower()
             if operacao not in ["a", "d", "n", "s"]:
@@ -356,7 +358,7 @@ class AppAgenda:
         telefone = AppAgenda.pede_telefone()
         if nulo_ou_vazio(telefone):
             return
-        if dados.pesquisa_telefone(telefone) != None:
+        if dados.pesquisa_telefone(telefone) is not None:
             print("Telefone já existe")
         tipo = self.pede_tipo_telefone()
         dados.telefones.adiciona(Telefone(telefone, tipo))
@@ -395,7 +397,7 @@ class AppAgenda:
         print("\nAgenda")
         print("-" * 60)
         for e in self.agenda:
-            AppAgeda.mostra_dados(e)
+            AppAgenda.mostra_dados(e)
         print("-" * 60)
 
     def le(self, nome_arquivo=None):
@@ -412,12 +414,12 @@ class AppAgenda:
         print("\nAgenda ordenada\n")
 
     def grava(self):
-        if self.ultimo_nome != None:
+        if self.ultimo_nome is not None:
             print(f"Último nome utilizado foi {self.ultimo_nome}")
             print(f"Digite ENTER caso queira utiliza o mesmo nome")
         nome_arquivo = AppAgenda.pede_nome_arquivo()
         if nulo_ou_vazio(nome_arquivo):
-            if self.ultimo_nome != None:
+            if self.ultimo_nome is not None:
                 nome_arquivo = self.ultimo_nome
             else:
                 return
