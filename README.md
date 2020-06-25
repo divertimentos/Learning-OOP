@@ -1,10 +1,9 @@
 # Estudos de Orientação a Objetos
 
-## Programação Dinâmica (Python Café)
+## Vídeos
+### Programação Dinâmica (Python Café)
 
 Série de vídeos do [Hallison Paz](https://hallisonpaz.com.br/) sobre orientação a objetos em Python, todos gratuitos e hospedados no YouTube.
-
-## Lista de vídeos
 
 1. [O que é um objeto?](https://www.youtube.com/watch?v=gJC02P6jkRM)
 
@@ -12,19 +11,40 @@ Série de vídeos do [Hallison Paz](https://hallisonpaz.com.br/) sobre orientaç
 
 3. [Representando objetos em strings](https://www.youtube.com/watch?v=ei9-eCyon7I&t=5s)
 
-## Live de Python (Eduardo Mendes)
+### Live de Python (Eduardo Mendes)
 
 Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orientação a objetos em Python.
 
 1. [Live de Python (\#61): Programação orientada a objetos \#1 - Introdução](https://www.youtube.com/watch?v=BALM_oJcJL4&t=1s)
 
-2. 
+### Python Object-Oriented Programming (OOP) - For Beginners (Tech With Tim)
 
-# Capítulo 10 (Classes e Objetos) do livro Introdução à Programação com Python (Nilo Ney Coutinho Menezes)
+* [Python Object-Oriented Programming (OOP) - For Beginners (Tech With Tim)](https://www.youtube.com/watch?v=JeznW_7DlB0)
 
-#### Divertimentos (exercícios)
+### Python Classes and Objects || Python Tutorial || Learn Python Programming (Socratica)
 
-#### Anotações
+* [Python Classes and Objects || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=apACNr7DC_s) 
 
-#### Banco Tatu
+### Python OOP Tutorial 5: Special (Magic/Dunder) Methods
+
+* [Python OOP Tutorial 5: Special (Magic/Dunder) Methods](https://www.youtube.com/watch?v=3ohzBxoFHAY&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&index=5)
+
+## Livros
+
+### Capítulo 10 (Classes e Objetos) do livro Introdução à Programação com Python (Nilo Ney Coutinho Menezes)
+
+* [Agenda](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/livro-python-menezes/cap-10_classes_objetos/agenda/agenda.py)
+* [Anotações](https://github.com/guiemi-learning-center/Learning-OOP/tree/master/livro-python-menezes/cap-10_classes_objetos/anotacoes)
+* [Banco Tatu](https://github.com/guiemi-learning-center/Learning-OOP/tree/master/livro-python-menezes/cap-10_classes_objetos/banco_tatu)
+* [Exercícios/Divertimentos](https://github.com/guiemi-learning-center/Learning-OOP/tree/master/livro-python-menezes/cap-10_classes_objetos/divertimentos)
+
+### Python 3 Object-Oriented Programming (2nd edition) (Dusty Phillips)
+
+
+## Tutoriais
+
+
+
+
+# 
 
