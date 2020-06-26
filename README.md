@@ -15,7 +15,8 @@ Série de vídeos do [Hallison Paz](https://hallisonpaz.com.br/) sobre orientaç
 
 Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orientação a objetos em Python.
 
-1. [Live de Python (\#61): Programação orientada a objetos \#1 - Introdução](https://www.youtube.com/watch?v=BALM_oJcJL4&t=1s)
+1. Live de Python (\#61): [Programação orientada a objetos \#1 - Introdução](https://www.youtube.com/watch?v=BALM_oJcJL4&t=1s)
+2. Live de Python (#62): Programação orientada a objetos #2 - Herança e Polimorfismo
 
 ### Python Object-Oriented Programming (OOP) - For Beginners (Tech With Tim)
 
