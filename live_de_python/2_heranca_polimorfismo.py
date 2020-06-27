@@ -16,3 +16,8 @@ class Pizza:
         ingredientes = ["molho de tomate", "orégano", "azeitona"]
         return ingredientes
 
+class Mussarela(Pizza):
+    @staticmethod
+    def ingredientes():
+        return = ["Mussarela", "Parmesão", "Cheddar", "Catupiry"]
+
