@@ -55,8 +55,13 @@ Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orien
 
 * [Python Classes and Objects || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=apACNr7DC_s) 
 
-### Python OOP Tutorial 5: Special (Magic/Dunder) Methods
+### Python OOP Tutorial 5: Special (Magic/Dunder) Methods (Corey Schafer)
 
 * [Python OOP Tutorial 5: Special (Magic/Dunder) Methods](https://www.youtube.com/watch?v=3ohzBxoFHAY&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&index=5)
 
+### Composição  - Python Orientado a Objetos - Aula 43 (Otávio Miranda)
+
+* [Composição  - Python Orientado a Objetos - Aula 43 (Otávio Miranda)](https://www.youtube.com/watch?v=O6F77N09HdI)
+
 ## Cursos Online
+
