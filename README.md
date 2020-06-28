@@ -39,10 +39,13 @@ Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orien
 1. Live de Python (\#61): [Programação orientada a objetos \#1 - Introdução](https://www.youtube.com/watch?v=BALM_oJcJL4&t=1s)
 2. Live de Python (#62): [Programação orientada a objetos #2 - Herança e Polimorfismo](https://youtu.be/xWTNoTtA9V8?list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK)
 3. Live de Python (#63): [Programação orientada a objetos #3 - Composição e Métodos Mágicos](https://www.youtube.com/watch?v=MYaXUrmvrho&list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK&index=3)
+4. Live de Python (#64): [Programação orientada a objetos #4 - Sobrecarga de operadores](https://www.youtube.com/watch?v=XSVvXso_Ukc&list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK&index=4) 
+5. Live de Python (#65): [Programação orientada a objetos #5 - Interfaces e ABCs](https://www.youtube.com/watch?v=yLHV1__nZZw&list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK&index=5)
 
 #### Anotações
-   * Anotações sobre [Herança e Polimorfismo](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/2_heranca_polimorfismo.py)
-   * Anotações sobre [Composição e métodos mágicos](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/3_composicao_metodos_magicos.py)
+   * Anotações sobre [herança e polimorfismo](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/2_heranca_polimorfismo.py)
+   * Anotações sobre [composição e métodos mágicos](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/3_composicao_metodos_magicos.py)
+   * Anotações sobre [sobrecarga de operadores](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/4_sobrecarga_operadores.py)
 
 ### Python Object-Oriented Programming (OOP) - For Beginners (Tech With Tim)
 
