@@ -4,11 +4,6 @@
 
 ### Capítulo 10 (Classes e Objetos) do livro Introdução à Programação com Python (Nilo Ney Coutinho Menezes)
 
-#### Link pro Livro:
-
-* [Novatec](https://novatec.com.br/livros/introducao-python-3ed/)
-* [Amazon](https://www.amazon.com.br/gp/product/8575227181/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=8575227181&linkCode=as2&tag=novatec03-20)
-
 #### Anotações:
 
 * [Agenda](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/livro-python-menezes/cap-10_classes_objetos/agenda/agenda.py)
