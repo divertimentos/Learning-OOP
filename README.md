@@ -47,7 +47,7 @@ Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orien
    * Anotações sobre [herança e polimorfismo](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/2_heranca_polimorfismo.py)
    * Anotações sobre [composição e métodos mágicos](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/3_composicao_metodos_magicos.py)
    * Anotações sobre [sobrecarga de operadores](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/4_sobrecarga_operadores.py)
-   * Anotações sobre [interfaces/protocolos e ABCs](interfaces/protocolos e ABCs)
+   * Anotações sobre [interfaces/protocolos e ABCs](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/5_interfaces_abcs.py)
 
 ### Python Object-Oriented Programming (OOP) - For Beginners (Tech With Tim)
 
