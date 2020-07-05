@@ -59,6 +59,8 @@ Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orien
 
 ### Python OOP Tutorial 5: Special (Magic/Dunder) Methods (Corey Schafer)
 
+* [Python OOP Tutorial 4: Inheritance (Creating Subclasses)](https://www.youtube.com/watch?v=RSl87lqOXDE)
+
 * [Python OOP Tutorial 5: Special (Magic/Dunder) Methods](https://www.youtube.com/watch?v=3ohzBxoFHAY&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&index=5)
 
 ### Composição  - Python Orientado a Objetos - Aula 43 (Otávio Miranda)
