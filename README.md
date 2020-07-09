@@ -41,7 +41,7 @@ Série de vídeos do [Eduardo Mendes](https://github.com/dunossauro) sobre orien
 3. Live de Python (#63): [Programação orientada a objetos #3 - Composição e Métodos Mágicos](https://www.youtube.com/watch?v=MYaXUrmvrho&list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK&index=3)
 4. Live de Python (#64): [Programação orientada a objetos #4 - Sobrecarga de operadores](https://www.youtube.com/watch?v=XSVvXso_Ukc&list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK&index=4) 
 5. Live de Python (#65): [Programação orientada a objetos #5 - Interfaces e ABCs](https://www.youtube.com/watch?v=yLHV1__nZZw&list=PLOQgLBuj2-3L_L6ahsBVA_SzuGtKre3OK&index=5)
-6. Live de Python (# 69): Programação orientada a objetos #6 Interfaces e ABCs (Parte 2)
+6. Live de Python (#69): [Programação orientada a objetos #6 - Interfaces e ABCs (Parte 2)](https://www.youtube.com/watch?v=erAXvsuihPQ)
 
 #### Anotações
    * Anotações sobre [herança e polimorfismo](https://github.com/guiemi-learning-center/Learning-OOP/blob/master/live_de_python/2_heranca_polimorfismo.py)
