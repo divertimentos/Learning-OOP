@@ -43,16 +43,20 @@ class Notebook:
     def _find_note(self, note_id):
         """Locate the note with the given id"""
         for note in self.notes:
-            if note.id == note_id:
+            if str(note.id) == str(note_id):
                 return note
         return None
 
     def modify_memo(self, note_id, memo):
         """Find the note with the given id and change its
         memo to the given value"""
-        self._find_note(note_id).memo = memo
+        note = self._find_note(note_id)
+        if note:
+            note.memo = memo
+            return True
+        return False
 
-    def modify_tags(self, note_id, tags):
+    def modify_tags(self, note_id, tags): #TODO: Tem que otimizar esse método também
         """Find the note with the given id and
         change its tags to the given value"""
         for note in self.notes:
